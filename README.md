@@ -6,7 +6,7 @@ We are pleased to announce the release of Cormas 2014.
 As you did notice, we continue to design the framework towards two directions:
 
 1. to enable the development of interactive simulations, and
- 2. to facilitate the collective design and implementation of models.
+2. to facilitate the collective design and implementation of models.
 
 Compared to the previous version (2012-2013), this new version focuses more on the first point: to interact more easily with the agents of a simulation in order to participate, alone or with others, in the execution of a scenario.
 
