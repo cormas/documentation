@@ -5,8 +5,8 @@
 
 The root class of CORMAS entities of models.
 
-Should implement methods: destroyed, init
-
+- Abstract methods: destroyed, init
+- 
 Subclasses must implement the following messages:
 
 Instance protocol:
@@ -16,19 +16,20 @@ Instance protocol:
 - destroyed
 
 Class protocol:
-	accessing
-			CurrentId
 
-
+- CurrentId
 
 There is 3 main subclasses of Entity: Agent, PassiveObject and SpatialEntity
 
 ##Agent
 
 - Attributes : isDead
-
-Should implement the step method.
-
+- Class comment : none
+- Abstract methods: step
+- Methods to deprecate: 
+ 	- instance : displayOn:at:, representBinaryOn33:
+ 	- class: ad2ClassInfo, dead_default, newBoss33:
+ 
 ###AgentComm
 
 Are agents that could communicate to each other
