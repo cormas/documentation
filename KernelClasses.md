@@ -4,7 +4,22 @@
 ##Entity
 
 The root class of CORMAS entities of models.
+
 Should implement methods: destroyed, init
+
+Subclasses must implement the following messages:
+
+Instance protocol:
+
+- init
+- initId
+- destroyed
+
+Class protocol:
+	accessing
+			CurrentId
+
+
 
 There is 3 main subclasses of Entity: Agent, PassiveObject and SpatialEntity
 
