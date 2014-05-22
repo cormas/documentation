@@ -23,7 +23,7 @@ There is 3 main subclasses of CormasNS.Kernel.Entity: Agent, PassiveObject and S
 
 ##CormasNS.Kernel.Agent
 
-- Attributes : isDead
+- Attributes: dead
 - Class comment : none
 - Abstract methods: step
 - Methods to deprecate: 
