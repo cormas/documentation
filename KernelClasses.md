@@ -1,6 +1,25 @@
 #Core Cormas classes
 
 
+##CormasNS.Kernel.CormasModel
+
+CormasModel is one of the main class of Cormas. It is the super class of the YourModel class.
+When you create a new model in Cormas (ex: MyModel), a sub class of CormasModel is created; its name is the name of your model. ex:
+
+	CormasNS.Models.MyModel defineClass: #MyModel
+		superclass: #{CormasNS.Kernel.CormasModel}
+		indexedType: #none
+		private: false
+		instanceVariableNames: ''
+		classInstanceVariableNames: ''
+		imports: ''
+		category: 'MyModelCategory'  '''
+	
+This class allows to initiate a simulation and to schedule it.
+Your subclass will contain attributs like 'theCells' for example which are OrderedCollections storing the instances of your entities.
+
+
+
 ##CormasNS.Kernel.Entity
 
 The root class of CORMAS entities of models.
