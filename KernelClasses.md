@@ -1,7 +1,7 @@
 #Core Cormas classes
 
 
-##Entity
+##CormasNS.Kernel.Entity
 
 The root class of CORMAS entities of models.
 
@@ -19,9 +19,9 @@ Class protocol:
 
 - CurrentId
 
-There is 3 main subclasses of Entity: Agent, PassiveObject and SpatialEntity
+There is 3 main subclasses of CormasNS.Kernel.Entity: Agent, PassiveObject and SpatialEntity
 
-##Agent
+##CormasNS.Kernel.Agent
 
 - Attributes : isDead
 - Class comment : none
