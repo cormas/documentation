@@ -11,6 +11,7 @@
 - GF/ST Demo
 - RBCodeHightlighting
 - AutoComplete
+- Com- Automation
 
 ##Development Prerequisites
 - Any: HotDraw
@@ -23,6 +24,7 @@
 - Any: GF/ST Demo
 - Any: RBCodeHightlighting
 - Any: AutoComplete
+- Any: Com- Automation
 
 ##Postload
 ```[:package | 
