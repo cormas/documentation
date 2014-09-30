@@ -11,7 +11,7 @@
 - GF/ST Demo
 - RBCodeHightlighting
 - AutoComplete
-- Com- Automation
+- Com- Automation (Non, cette parcel doit seulement être chargée pour Cormas sous Windows. Cf. Cormas postLoadActions où il y a un test)
 
 ##Development Prerequisites
 - Any: HotDraw
@@ -24,7 +24,7 @@
 - Any: GF/ST Demo
 - Any: RBCodeHightlighting
 - Any: AutoComplete
-- Any: Com- Automation
+- Any: Com- Automation (idem)
 
 ##Postload
 ```[:package | 
