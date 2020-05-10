@@ -1,7 +1,7 @@
-#Core Cormas classes
+# Core Cormas classes
 
 
-##CormasNS.Kernel.CormasModel
+## CormasNS.Kernel.CormasModel
 
 CormasModel is one of the main class of Cormas. It is the super class of the YourModel class.
 When you create a new model in Cormas (ex: MyModel), a sub class of CormasModel is created; its name is the name of your model. ex:
@@ -20,7 +20,7 @@ Your subclass will contain attributs like 'theCells' for example which are Order
 
 
 
-##CormasNS.Kernel.Entity
+## CormasNS.Kernel.Entity
 
 The root class of CORMAS entities of models.
 
@@ -42,7 +42,7 @@ Class protocol:
 
 There is 3 main subclasses of CormasNS.Kernel.Entity: CormasNS.Kernel.Agent, PassiveObject and SpatialEntity
 
-##CormasNS.Kernel.Agent
+## CormasNS.Kernel.Agent
 
 - instance variables: dead
 - Class comment : none
@@ -51,20 +51,20 @@ There is 3 main subclasses of CormasNS.Kernel.Entity: CormasNS.Kernel.Agent, Pas
  	- instance : displayOn:at:, representBinaryOn33:
  	- class: ad2ClassInfo, dead_default, newBoss33:
  
-###AgentComm
+### AgentComm
 
 Are agents that could communicate to each other
 
-###AgentLocation
+### AgentLocation
 Je ne comprends pas ce que c'est ? Ce sont des agents situés ? Peut-être faut-il alors changer le nom de la classe en SituatedAgent
 
-###Group
+### Group
 Agent composed of agents
 
-##PassiveObject
+## PassiveObject
 Attributes: destroyed : ?
 
-##SpatialEntity
+## SpatialEntity
 
 - SpatialEntityElement : ??
 - SpatialEntityCell : ??
