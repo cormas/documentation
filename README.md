@@ -1,5 +1,5 @@
 
-#How to install CORMAS 2014 version ?
+# How to install CORMAS 2014 version ?
 
 We are pleased to announce the release of Cormas 2014.
 
@@ -22,7 +22,7 @@ To download this version, please follow this link:
 - english: [http://cormas.cirad.fr/en/outil/download/install.htm?opt_accept=true&cmd_download=Download](http://cormas.cirad.fr/en/outil/download/install.htm?opt_accept=true&cmd_download=Download)
 - français: [http://cormas.cirad.fr/fr/outil/download/install.htm?opt_accept=true&cmd_download=Download](http://cormas.cirad.fr/fr/outil/download/install.htm?opt_accept=true&cmd_download=Download)
  
-#How to install distributed simulation for CORMAS ?
+# How to install distributed simulation for CORMAS ?
 
 For this, you need to load a patch in Cormas and you can do this through the Cormas add-ons tool. Please follow these steps:
 
