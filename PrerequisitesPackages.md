@@ -1,6 +1,6 @@
-#Cormas 2014 Prerequisites Packages
+# Cormas 2014 Prerequisites Packages
 
-##Deployment Prerequisites
+## Deployment Prerequisites
 - HotDraw
 - Lens-Dev
 - Lens-Namespace
@@ -13,7 +13,7 @@
 - AutoComplete
 - Com- Automation (Non, cette parcel doit seulement être chargée pour Cormas sous Windows. Cf. Cormas postLoadActions où il y a un test)
 
-##Development Prerequisites
+## Development Prerequisites
 - Any: HotDraw
 - Any: Lens-Dev
 - Any: Lens-Namespace
@@ -26,7 +26,7 @@
 - Any: AutoComplete
 - Any: Com- Automation (idem)
 
-##Postload
+## Postload
 ```[:package | 
 CormasNS.Kernel.SpaceInterface postLoadActionFor: package.
 CormasNS.Kernel.Cormas postLoadActions]```
