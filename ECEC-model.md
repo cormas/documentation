@@ -1,13 +1,13 @@
-#ECEC model
+# ECEC model
 
 5 classes : ECEC, Forager, Restrained, Unrestrained, VegetationUnit
 
-##ECEC
+## ECEC
 
-##Forager
+## Forager
 
-##Restrained
+## Restrained
 
-##Unrestrained
+## Unrestrained
 
-##VegetationUnit
+## VegetationUnit
